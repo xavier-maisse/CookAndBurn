@@ -2,5 +2,5 @@
 Projet PHP : Site de partage de recettes 
 
 ```
-bower install https://github.com/toddmotto/fluidvids.git
+Lien du site https://cookandburn-gxaj.alwaysdata.net/index
 ```
