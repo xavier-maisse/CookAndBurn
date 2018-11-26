@@ -1,0 +1,99 @@
+     __  _______  ____  ____  _______        __ 
+    / / |_   __ \|_   ||   _||_   __ \      / / 
+   / /    | |__) | | |__| |    | |__) |    / /  
+  / /     |  ___/  |  __  |    |  ___/    / /   
+ / /     _| |_    _| |  | |_  _| |_      / /    
+/_/     |_____|  |____||____||_____|    /_/     
+                                                
+
+// Equipe //
+
+-Gregory NAM
+-Xavier MAISSE
+-Axel AMGHAR
+-Jonas BOULANGER
+
+
+// SITE URL //
+
+cookandburn-gxaj.alwaysdata.net/index
+
+
+// Présentation du projet //
+
+Cook & Burn, toute jeune startup française, conçoit des barbecues connectés.
+Afin d’accélérer son développement elle vous confie la réalisation d’une petite application Web
+dédiée à la création et au partage des recettes des membres. L’interface permettra aux utilisateurs,
+quel que soit leur terminal (mobile / tablette / bureau), de naviguer simplement et rapidement.
+Ces utilisateurs sont des membres disposant d’un compte (créé et activé préalablement lors de
+l’achat d’un barbecue de la marque), qui peuvent donc créer et partager leurs propres recettes.
+Les recettes sont notées par les utilisateurs et se voient attribuer des « burns » par ceux-ci. Une
+recette ayant dix burns devient publique et visible par les visiteurs du site Web ne disposant pas de
+compte.
+
+
+// Choix Techniques //
+
+Orientation vers PDO et non MySqli en raison d'une programmation orientée objet.
+Utilisation d'une architecture MVC (Model View Controller).
+
+
+//Configuration logicielle minimale //
+
+-PHP 7.2.9
+-MySQL 10.2(mariadb)
+
+
+// Identifiants de connexion //
+
+/!\Présenté sous forme identifiant:motdepasse/!\
+
+	Site :
+		Compte admin :
+			adm:1234
+		Compte utilisateur :
+			xavier:1234
+			gregory:monmdp
+			jonas:juljul
+			axel:123
+			tristan:552
+			jean:367
+			julien:864
+			alexis:491
+			juliette:884
+			morgan:322
+			hugo:762
+			charlotte:020
+			sandra:804
+			pierre:927
+			vincent:376
+			emile:203
+
+	PhpMyAdmin :
+		167602:barbecue2018
+
+	Alwaysdata :
+		gregory2a2a@gmail.com:barbecue2018
+
+	GitHub :
+		gregory-nam:2018cookandburn
+
+
+// Compte utilisateur //
+
+Pour des raisons de sécurité les mots de passe ne sont pas stockés en clair dans notre base de donnée.
+Il sont hachés via la fonction de hachage SHA1 qui produit un résultat (appelé « hash » ou condensat) de 160 bits.
+
+// Sécurité //
+
+Certains caractères ont des significations spéciales en HTML, et doivent être remplacés par des entités HTML pour conserver leurs significations. Par sécurité nous avons donc utilisé htmlspecialchars() pour tous les POST de nos formulaires. Ainsi on sécurisé un peu plus les formulaires.
+De plus chaque données des formulaires récupérés sont filtrées , du côté client comme du côté serveur avec des filtres de variable.
+
+// Base de donnée //
+
+Dans la table user, nous avons mis les attributs date_inscription et avatar car nous avons envisagé par la suite d'offrir la possibilité aux utilisateurs d'avoir une photo de profil. Et il peut être intéressant pour l'administrateur de savoir quand tel individu s'est inscrit (Possibilité de recompenser la fidelité, organiser des concours , etc .. )
+
+// Panel Administrateur //
+ 
+Tout est ok. Sauf le compteur total de partages, impossible de trouver comment comptabiliser la somme total de tous nos partages.
+Il nous faudrait plus de temps pour se renseigner sur la documentation de l'API Facebook Dev.

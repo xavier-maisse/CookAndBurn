@@ -1,7 +1,4 @@
-# CookAndBurn
-Projet PHP : Site de partage de recettes 
+# Cook-And-Burn
+Projet php 2018 ! 
 
-Site [CookAndBurn](http://cookandburn-gxaj.alwaysdata.net/index)
-```
-Lien du site http://cookandburn-gxaj.alwaysdata.net/index
-```
+**Site** -> [CookAndBurn](http://cookandburn-gxaj.alwaysdata.net/index)
