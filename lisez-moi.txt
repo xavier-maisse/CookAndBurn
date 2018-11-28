@@ -76,7 +76,7 @@ Utilisation d'une architecture MVC (Model View Controller).
 		gregory2a2a@gmail.com:barbecue2018
 
 	GitHub :
-		gregory-nam:2018cookandburn
+		**********
 
 
 // Compte utilisateur //
