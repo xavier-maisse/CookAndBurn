@@ -50,7 +50,7 @@ Utilisation d'une architecture MVC (Model View Controller).
 
 	Site :
 		Compte admin :
-			adm:1234
+			*****
 		Compte utilisateur :
 			xavier:1234
 			gregory:monmdp
@@ -70,7 +70,7 @@ Utilisation d'une architecture MVC (Model View Controller).
 			emile:203
 
 	PhpMyAdmin :
-		167602:barbecue2018
+		*****
 
 	Alwaysdata :
 		gregory2a2a@gmail.com:barbecue2018
